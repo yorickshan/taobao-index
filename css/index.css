@@ -1,1 +1,55 @@
-@import 'reset.css'
+@import 'reset.css';
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../font/iconfont.woff2') format('woff2'),
+        url('../font/iconfont.woff') format('woff'),
+        url('../font/iconfont.ttf') format('truetype'),
+        url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 本站导航 */
+#siteNav li{
+	float: left;
+	line-height: 35px;
+	padding: 0 6px;
+	font-size: 0;
+}
+#siteNav a{
+	color: #6c6c6c;
+	font-size: 12px;
+}
+#siteNav a:hover{
+	color: #f40;
+}
+#siteNav a.login{
+	color: #f22e00;
+}
+#siteNav span{
+	font-size: 12px;
+}
+#siteNav span.arrow{
+	margin-left: 7px;;
+}
+#siteNav li strong{
+	font-size: 12px;
+	color: #f22e00;
+}
+#siteNav li span.store{
+	color: #9c9c9c;
+}
+#siteNav li.line{
+	font-size: 12px;
+	color: #ddd;
+	padding: 0 5px;
+}
