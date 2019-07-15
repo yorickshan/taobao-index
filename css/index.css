@@ -53,3 +53,76 @@
 	color: #ddd;
 	padding: 0 5px;
 }
+
+/* 广告 */
+#ad {
+    background-color: #f12f04;
+}
+
+#ad{
+	background-color: #f12f04;
+}
+#ad .go{
+	display: block;
+	padding: 10px 10px 10px 15px;
+}
+#ad .go img{
+	width: 80px;
+	height: 80px;
+}
+#ad ul{
+	padding-top: 13px;
+}
+#ad li{
+	float: left;
+	width: 209px;
+	height: 75px;
+	margin-right: 10px;
+
+	padding: 12px 15px 0 15px;
+	box-sizing: border-box;
+
+	/* 
+		盒模型
+			1、标准盒模型
+				总宽度=border(左右)+width+padding(左右)
+				总高度=border(上下)+height+padding(上下)
+			2、IE盒模型(怪异盒模型)
+				总宽度=width;
+				总高度=height;
+	 */
+}
+#ad li h3{
+	font-size: 20px;
+	line-height: 28px;
+}
+#ad li p{
+	font-size: 14px;
+	line-height: 20px;
+}
+#ad li a{
+	color: #fff;
+	display: block;
+}
+#ad li a img{
+	width: 52px;
+	height: 52px;
+	border-radius: 5px;
+}
+
+#ad li.item1{
+	background: url(../images/adbg_01.png) no-repeat;
+}
+#ad li.item2{
+	background: url(../images/adbg_02.png) no-repeat;
+}
+#ad li.item3{
+	background: url(../images/adbg_03.png) no-repeat;
+}
+#ad li.item4{
+	background: url(../images/adbg_04.png) no-repeat;
+}
+#ad li.item5{
+	background: url(../images/adbg_05.png) no-repeat;
+	margin-right: 0;
+}
